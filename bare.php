@@ -1,0 +1,35 @@
+
+<div class="container-fluid bg-body shadow border my-2 py-2">
+                 <div class="container-xl"><div class="text-truncate text-muted my-2">
+        <h1 class="text-truncate font-size-20 d-inline" style="color: whitesmoke;">
+         les meilleurs annonces        <strong><i class="fa fa-africa"></i>en  Afrique</strong>
+      </h1>
+    </div>
+<form action="?" method="GET" data-toggle="validator" id="search-xs" class="form-inline" role="form">
+   <input id="search_input" type="text" maxlength="300" class="form-control col-12 col-sm-4 col-md-4" name="q" value="" placeholder="Que recherchez vous?" />
+   <label for="category" class="sr-only">Cat&eacute;gories</label>     <select name="x2catid" class="form-control selectpicker show-tick col-12 col-sm-3 col-md-3" data-live-search="true" id="category">
+    <option value="0">- Toutes  -</option>
+     <option data-icon='icon16 electronics'   value="9">Électroniques - Multimédia </option><option data-icon='icon16 houses'   value="1">Immobilier Location - Vente </option><option data-icon='icon16 household'   value="3">Électroménager, Maison, Déco </option><option data-icon='icon16 cars'   value="7">Véhicules - Motos - Auto - Camions </option><option data-icon='icon16 fashion'   value="11">Mode - Accessoires de mode </option><option data-icon='icon16 beauty_health'   value="12">Beauté, Santé & Bien-être </option><option data-icon='icon16 jobs'   value="2">Offres Emploi, Travail - Recrutement </option><option data-icon='icon16 courses'   value="6">Formations - Cours - Éducation </option><option data-icon='icon16 services'   value="4">Entreprises - Services Professionnels </option><option data-icon='icon16 supermarket'   value="13">Supermarché </option><option data-icon='icon16 industry'   value="8">Quincaillerie - Industrie </option><option data-icon='icon16 leisure'   value="5">Loisirs - Communauté - Sports </option><option data-icon='icon16 afritude'   value="14">Afritude </option><option data-icon='icon16 divers'   value="15">Divers </option><option data-icon='icon16 jobs_search'   value="10">CVthèque - Chercheurs d'Emploi </option>    </select>
+    <label for="city" class="sr-only">Lieu</label>      <select class="form-control selectpicker show-tick col-12 col-sm-3 col-md-3" data-live-search="true" name="cityid" id="city">
+        <option value="0">Tout Cameroun</option>
+                   <optgroup label="LES VILLES POPULAIRES">
+          <option  value="1"><strong>Douala</strong> <em class="text-grey">(21257)</em></option><option  value="2"><strong>Yaoundé</strong> <em class="text-grey">(9890)</em></option><option  value="27">Bafang</option><option  value="6">Bafoussam <em class="text-grey">(182)</em></option><option  value="34">Dibombari</option><option  value="18">Kribi <em class="text-grey">(145)</em></option><option  value="29">Baham</option><option  value="26">Ambam</option>         </optgroup>
+                  <optgroup label="TOUT CAMEROUN">
+       <option  value="24">Abong-Mbang</option><option  value="25">Akonolinga</option><option  value="26">Ambam</option><option  value="27">Bafang</option><option  value="28">Bafia</option><option  value="6">Bafoussam</option><option  value="29">Baham</option><option  value="67">Bambili</option><option  value="4">Bamenda</option><option  value="21">Bandjoun</option><option  value="30">Bangangté</option><option  value="31">Bangem</option><option  value="32">Banyo</option><option  value="33">Batouri</option><option  value="8">Bertoua</option><option  value="13">Buéa</option><option  value="34">Dibombari</option><option  value="1"><strong>Douala</strong></option><option  value="22">Dschang</option><option  value="23">Ebolowa</option><option  value="11">Edéa</option><option  value="35">Eséka</option><option  value="16">Foumban</option><option  value="68">Foumbot</option><option  value="36">Fundong</option><option  value="3">Garoua</option><option  value="73">Garoua-Boulaï</option><option  value="64">Goura</option><option  value="37">Guider</option><option  value="38">Kaélé</option><option  value="81">Kerawa</option><option  value="39">Kousséri</option><option  value="18">Kribi</option><option  value="10">Kumba</option><option  value="40">Kumbo</option><option  value="17">Limbé</option><option  value="9">Loum</option><option  value="41">Mamfé</option><option  value="71">Manjo</option><option  value="5">Maroua</option><option  value="66">Martap</option><option  value="20">Mbalmayo</option><option  value="63">Mbanga</option><option  value="42">Mbengwi</option><option  value="12">Mbouda</option><option  value="43">Meiganga</option><option  value="69">Mélong</option><option  value="44">Menji</option><option  value="19">Mfou</option><option  value="45">Mokolo</option><option  value="15">Monatélé</option><option  value="47">Mora</option><option  value="48">Mudemba</option><option  value="77">Muyuka</option><option  value="49">Nanga-Eboko</option><option  value="50">Ndop</option><option  value="7">Ngaoundéré</option><option  value="51">Ngoumou</option><option  value="52">Nkambé</option><option  value="14">Nkongsamba</option><option  value="53">Ntui</option><option  value="75">Obala</option><option  value="54">Poli</option><option  value="55">Sangmélima</option><option  value="56">Tchollire</option><option  value="57">Tibati</option><option  value="58">Tignère</option><option  value="79">Tonga</option><option  value="46">Widikum-Boffe</option><option  value="59">Wum</option><option  value="60">Yabassi</option><option  value="61">Yagoua</option><option  value="2"><strong>Yaoundé</strong></option><option  value="62">Yokadouma</option><option  value="65">Yomama</option>      </optgroup>
+        </select>
+  <input type="hidden" name="s-do" value="searching" />
+       <input type="hidden" name="view" value="search" />
+       <input type="hidden" name="redirect" value="1" />
+       <button type="submit" class="btn btn-outline-success col" title="Chercher"> <svg class="bi bi-search-freq "  width="1.4em" height="1.4em"  viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg> Chercher</button>   <div class="col-auto my-1">
+   <!-- <div class="custom-control align-items-stretch custom-switch custom-control-inline">
+     <input type="checkbox" name="urg" value="1" class="custom-control-input" id="urg_checkbox" />
+     <label for="urg_checkbox" class="custom-control-label badge badge-light"><em>
+     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock text-danger" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+          <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+       </svg>
+     Urgent</em></label>
+   </div> -->
+   
+  </div>
+</form></div>
